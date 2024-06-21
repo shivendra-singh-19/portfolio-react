@@ -1,38 +1,252 @@
-.App {
+#root {
+display: flex;
+flex-direction: column;
+height: 100vh;
+}
+
+.middle-body{
+  flex: 1;
+}
+
+.header-container {
+ display: flex;
+}
+
+
+.footer {
+  padding-bottom: 8vh;
+  padding-right: 8vb;
+  padding-left: 8vb;
+  border-top: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+
+.box {
+  height: 8vh;
+  min-width: 50px;
+}
+
+.siteHeading {
+  flex-grow: 20;
+  font-size: 3.5vh;
+  font-weight: 600;
+  padding-top: 3.5vh;
+  padding-left: 4vh;
+}
+
+.website-home-link {
+  text-decoration: none;
+  color: black;
+}
+
+.aboutMe {
+  flex-grow: 1;
+  padding-top: 4vh;
+  padding-left: 4vh;
+}
+
+.skills {
+  flex-grow: 1;
+  padding-top: 4vh;
+  padding-left: 4vh;
+  
+}
+
+.docs {
+  flex-grow: 1;
+  padding-top: 4vh;
+  padding-left: 4vh;
+  
+}
+
+.login {
+  flex-grow: 1;
+  padding-top: 3vh;
+  padding-left: 4vh;
+}
+
+.header-links {
+  text-decoration: none;
+  font-size: 2vh;
+  color: black;
+}
+
+.login-button {
+  height: 5vh;
+  width: 10vb;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-size: 2vh;
+}
+
+.eyeCatcherContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.eyeCatcher {
+  font-size: 4vh;
+  font-weight: 650;
+  width: 80vh;
+  overflow: hidden;
+  padding-top: 10vh;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.eyeCatcherSubText {
+  font-size: 2.5vh;
+  font-weight: 200;
+  width: 80vh;
+  overflow: hidden;
+  padding: 4vh;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.makeRequestButton {
+  width: 24vb;
+  height: 8vh;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  font-size: larger;
+  font-weight: 800;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.briefRedirect-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 8vh;
 }
 
-.App-link {
-  color: #61dafb;
+.briefRedirectHeading {
+  font-size: 2.5vh;
+  font-weight: 500;
+  padding: 1vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.briefRedirectSubText {
+  font-size: large;
+  font-weight: 200;
+  padding: 1vh;
+}
+
+.image-carousel-container {
+  position: relative;
+  max-width: 100%;
+}
+
+.websiteImage {
+  display: block;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.previous {
+  position: absolute;
+  top: 50%;
+  left: 2%;
+  height: 10vh;
+  width: 10vh;
+  border-radius: 50%;
+  font-size: 4vh;
+  background-color: black;
+  border: 0;
+  box-shadow: 0px 10px 10px rgba(255, 255, 255, 0.5);
+  color : white
+}
+
+.next {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  height: 10vh;
+  width: 10vh;
+  border-radius: 50%;
+  font-size: 4vh;
+  background-color: azure;
+  border: 0;
+  box-shadow: 10px 10px 10px;
+}
+
+.reviewContainer {
+  display: flex;
+  padding-left: 8vh;
+  padding-right: 8vh;
+  padding-bottom: 8vh;
+  flex-direction: column;
+}
+
+.reviewHeading {
+  font-size: 4.5vh;
+  font-weight: 600;
+  padding: 1vh;
+  padding-left: 0vh;
+}
+
+.reviewSubText {
+  font-size: 2vh;
+  font-weight: 200;
+  padding: 1vh;
+  padding-left: 0vh;
+}
+
+.reviewCardsContainer {
+  display: flex;
+}
+
+.reviewCard {
+ flex-grow: 1;
+ margin: 1vb;
+ box-shadow: 0.5vh 0.5vh 0.5vh 0.5vh rgba(0, 0, 0, 0.05);
+}
+
+.cardTitle {
+  padding: 3vb;
+  font-size: 2vh;
+  font-weight: 600;
+}
+
+.userName {
+  padding-top: 1vh;
+  padding-left: 3vb;
+  padding-bottom: 1vh;
+  font-size: 1.8vh;
+  font-weight: 600;
+}
+
+.userDescription {
+  padding-left: 3vb;
+  padding-bottom: 3vh;
+  font-size: 1.5vh;
+  font-weight: 200;
+}
+
+.contactText {
+  padding: 4vh;
+  padding-bottom: 0;
+  font-size: 4vh;
+  font-weight: 600;
+}
+
+.socialMediaContainer{
+  display: flex;
+  
+}
+
+.instaClass {
+  padding-left: 4.5vh;
+  padding-top: 2vh;
+}
+
+.linkedInClass {
+  padding-top: 2vh;
+  padding-left: 4.5vh;
+}
+
+.socialMediaLinks{
+  text-decoration: none;
 }
