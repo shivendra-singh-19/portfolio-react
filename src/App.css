@@ -250,3 +250,55 @@ height: 100vh;
 .socialMediaLinks{
   text-decoration: none;
 }
+
+.about-me-container {
+  display: flex;
+  flex-direction: row;
+  padding: 8vh;
+}
+
+.detail-partition {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  max-width: 50%;
+}
+
+.image-partition {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.about-me-heading {
+  font-size: 6vh;
+  font-weight: 700;
+  padding: 1vh;
+}
+
+.about-me-subtext {
+  font-size: 2vh;
+  font-weight: 100;
+  padding: 1vh;
+}
+
+.description-card-heading {
+  padding: 1vh;
+  padding-top: 2vh;
+  font-size: 4vh;
+  font-weight: 650;
+}
+
+.description-card-subtext {
+  padding: 1vh;
+  font-size: 2vh;
+  font-weight: 350;
+}
+
+.about-me-image {
+  height: 85%;
+  width: 75%;
+  border-radius: 0.25rem;
+}
+

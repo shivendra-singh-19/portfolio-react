@@ -11,7 +11,10 @@ export function Portfolio() {
             <div className="middle-body">
                 <Routes>
                     <Route path="/" element={<Body />} />
-                    <Route path="/about-me" element={<AboutMe />} />
+                    <Route path="/about-me" element={< AboutMe />} />
+                    <Route path="/skills" element={<></>} />
+                    <Route path="/docs" element={<></>} />
+                    <Route path="/login" element={<></>} />
                 </Routes>
             </div>
             <Footer />
