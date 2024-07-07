@@ -33,14 +33,13 @@ function ReviewCards() {
 
     return <div className="reviewCardsContainer">
         {reviewsDatas.map(reviewData => {
-            return < ReviewCard title={reviewData.title} name={reviewData.name} description={reviewData.description} />
+            return < ReviewCard title={reviewData.title} name={reviewData.name} description={reviewData.description} key={reviewData.name} />
         })}
     </div>;
 }
 
 function ReviewCard(props) {
     const { title, name, description } = props;
-    console.log(props);
 
     return <div className="reviewCard">
         <div className="cardTitle">"{title}"</div>

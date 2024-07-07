@@ -43,7 +43,7 @@ export function Skills(){
     ]
     return <div className="skills-container">
         {skills.map(skill => {
-            return < Skill name={skill.name} description={skill.description} imageUrl={skill.imageUrl} />
+            return < Skill name={skill.name} description={skill.description} imageUrl={skill.imageUrl} key={skill.imageUrl}/>
         })}
     </div>
 }

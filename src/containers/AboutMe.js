@@ -47,7 +47,7 @@ function Description() {
         }
     ];
     return <>
-        {descriptionArray.map(descriptionElement => <DescriptionCards heading={descriptionElement.heading} description={descriptionElement.description} />)}
+        {descriptionArray.map(descriptionElement => <DescriptionCards heading={descriptionElement.heading} description={descriptionElement.description} key={descriptionElement.heading} />)}
     </>
 }
 
