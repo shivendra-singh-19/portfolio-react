@@ -30,7 +30,7 @@ function WebSiteSampleImages() {
 
     const [index, setIndex] = useState(0);
     const goForward = () => {
-        if (index == images.length - 1) {
+        if (index === images.length - 1) {
             setIndex(0)
             return;
         }
