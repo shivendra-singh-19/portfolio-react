@@ -60,6 +60,6 @@ function SkillDescription(props){
     const { description, imageUrl } = props;
     return <div className="skill-description-container">
         <div className="skill-description">{description}</div>
-        <div className="skill-imageUrl"><img src={imageUrl} className="skill-image"/></div>
+        <div className="skill-imageUrl"><img src={imageUrl} className="skill-image" alt=""/></div>
     </div>
 }

@@ -15,7 +15,7 @@ function FooterInfo() {
 
 function SocialMediaInfo() {
     return <>
-        <div className="instaClass"><a href="#" className="socialMediaLinks">Instagram</a></div>
-        <div className="linkedInClass"><a href="#" className="socialMediaLinks">LinkedIn</a></div>
+        <div className="instaClass"><a href="" className="socialMediaLinks">Instagram</a></div>
+        <div className="linkedInClass"><a href="" className="socialMediaLinks">LinkedIn</a></div>
     </>
 }

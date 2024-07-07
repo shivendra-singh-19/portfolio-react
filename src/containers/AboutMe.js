@@ -60,5 +60,5 @@ function DescriptionCards(props) {
 }
 
 function Image() {
-    return <div className="image-partition"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnairatips.com%2Fwp-content%2Fuploads%2F2023%2F04%2Fimage-579.png&f=1&nofb=1&ipt=c1b042bfe5a75caa37e25f3bee525ab86f7125aabfe04f1b56fc51d14afc25d2&ipo=images" className="about-me-image" /></div>
+    return <div className="image-partition"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fnairatips.com%2Fwp-content%2Fuploads%2F2023%2F04%2Fimage-579.png&f=1&nofb=1&ipt=c1b042bfe5a75caa37e25f3bee525ab86f7125aabfe04f1b56fc51d14afc25d2&ipo=images" className="about-me-image" alt=""/></div>
 }

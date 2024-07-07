@@ -49,6 +49,6 @@ function WebSiteSampleImages() {
     return <div className="image-carousel-container">
         <button className="previous" onClick={goBack}>&larr;</button>
         <button className="next" onClick={goForward}>&#10148;</button>
-        <img src={images[index]} alt="Sample Image" className='websiteImage' />
+        <img src={images[index]} alt="" className='websiteImage' />
     </div>
 }
