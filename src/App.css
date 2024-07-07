@@ -94,6 +94,7 @@ height: 100vh;
   overflow: hidden;
   padding-top: 10vh;
   text-align: center;
+  cursor: default;
 }
 
 .eyeCatcherSubText {
@@ -103,6 +104,7 @@ height: 100vh;
   overflow: hidden;
   padding: 4vh;
   text-align: center;
+  cursor: default;
 }
 
 .makeRequestButton {
@@ -125,12 +127,14 @@ height: 100vh;
   font-size: 2.5vh;
   font-weight: 500;
   padding: 1vh;
+  cursor: default;
 }
 
 .briefRedirectSubText {
   font-size: large;
   font-weight: 200;
   padding: 1vh;
+  cursor: default;
 }
 
 .image-carousel-container {
@@ -185,6 +189,7 @@ height: 100vh;
   font-weight: 600;
   padding: 1vh;
   padding-left: 0vh;
+  cursor: default;
 }
 
 .reviewSubText {
@@ -192,6 +197,7 @@ height: 100vh;
   font-weight: 200;
   padding: 1vh;
   padding-left: 0vh;
+  cursor: default;
 }
 
 .reviewCardsContainer {
@@ -208,6 +214,7 @@ height: 100vh;
   padding: 3vb;
   font-size: 2vh;
   font-weight: 600;
+  cursor: default;
 }
 
 .userName {
@@ -216,6 +223,7 @@ height: 100vh;
   padding-bottom: 1vh;
   font-size: 1.8vh;
   font-weight: 600;
+  cursor: default;
 }
 
 .userDescription {
@@ -223,6 +231,7 @@ height: 100vh;
   padding-bottom: 3vh;
   font-size: 1.5vh;
   font-weight: 200;
+  cursor: default;
 }
 
 .contactText {
@@ -230,6 +239,7 @@ height: 100vh;
   padding-bottom: 0;
   font-size: 4vh;
   font-weight: 600;
+  cursor: default;
 }
 
 .socialMediaContainer{
@@ -275,12 +285,14 @@ height: 100vh;
   font-size: 6vh;
   font-weight: 700;
   padding: 1vh;
+  cursor: default;
 }
 
 .about-me-subtext {
   font-size: 2vh;
   font-weight: 100;
   padding: 1vh;
+  cursor: default;
 }
 
 .description-card-heading {
@@ -288,17 +300,58 @@ height: 100vh;
   padding-top: 2vh;
   font-size: 4vh;
   font-weight: 650;
+  cursor: default;
 }
 
 .description-card-subtext {
   padding: 1vh;
   font-size: 2vh;
   font-weight: 350;
+  cursor: default;
 }
 
 .about-me-image {
-  height: 85%;
-  width: 75%;
+  height: 60%;
+  width: 60%;
   border-radius: 0.25rem;
+}
+
+.skills-container {
+  padding: 6rem;
+}
+
+.skill-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1rem;
+  cursor: default;
+}
+
+.skill-description-container {
+  display: flex;
+  max-height: 5rem;
+}
+
+.skill-description{
+  font-size: 0.8rem;
+  font-weight: 250;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 70%;
+  cursor: default;
+}
+
+.skill-imageUrl{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-image {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.5));
 }
 

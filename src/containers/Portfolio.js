@@ -1,8 +1,9 @@
+import { Body } from "./Body"
 import { Footer } from "./Footer"
 import { Header } from "./Header"
-import { Body } from "./Body"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { Skills } from "./Skill";
 import { AboutMe } from "./AboutMe"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 export function Portfolio() {
     return <>
@@ -12,9 +13,9 @@ export function Portfolio() {
                 <Routes>
                     <Route path="/" element={<Body />} />
                     <Route path="/about-me" element={< AboutMe />} />
-                    <Route path="/skills" element={<></>} />
-                    <Route path="/docs" element={<></>} />
-                    <Route path="/login" element={<></>} />
+                    <Route path="/skills" element={< Skills />} />
+                    {/* <Route path="/docs" element={< Docs />} /> */}
+                    {/* <Route path="/login" element={< Login/>} /> */}
                 </Routes>
             </div>
             <Footer />
