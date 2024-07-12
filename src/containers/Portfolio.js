@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 export function Portfolio() {
     return <>
-        <Router basename="/portfolio-react">
+        <Router>
             <Header />
             <div className="middle-body">
                 <Routes>
