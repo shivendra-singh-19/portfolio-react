@@ -1,24 +1,28 @@
-import { Body } from "./Body"
-import { Footer } from "./Footer"
-import { Header } from "./Header"
-import { Skills } from "./Skill";
-import { AboutMe } from "./AboutMe"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+} from 'react-router-dom';
+
+import { AboutMe } from './AboutMe';
+import { Body } from './Body';
+import { Docs } from './Doc';
+import { Login } from './Login';
+import { Skills } from './Skill';
 
 export function Portfolio() {
     return <>
         <Router>
-            <Header />
             <div className="middle-body">
                 <Routes>
                     <Route path="/" element={<Body />} />
                     <Route path="/about-me" element={< AboutMe />} />
                     <Route path="/skills" element={< Skills />} />
-                    {/* <Route path="/docs" element={< Docs />} /> */}-
-                    {/* <Route path="/login" element={< Login/>} /> */}
+                    <Route path="/docs" element={< Docs />} />
+                    <Route path="/login" element={< Login/>} />
                 </Routes>
             </div>
-            <Footer />
+            
         </Router>
     </>
 }
